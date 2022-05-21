@@ -6,16 +6,22 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using Microsoft.AspNet.WebFormsDependencyInjection.Unity;
+using Dominio.IRepositorios;
+using Persistencia.Repositorios;
 
 namespace SistemaDeGestionDeTickets
 {
-    public class Global : HttpApplication
+    public class Global : System.Web.HttpApplication
     {
         void Application_Start(object sender, EventArgs e)
         {
+           
+
             // Código que se ejecuta al iniciar la aplicación
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
         }
     }
 }
