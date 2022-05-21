@@ -1,0 +1,13 @@
+﻿.formLogin {
+    border: solid #ccc 1px;
+    padding: 10px;
+    width: 35%;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin:auto;
+    background-color: white;
+}
+
+body{
+    background-color:#4bb9f1;
+}

@@ -20,8 +20,7 @@ namespace SistemaDeGestionDeTickets.Pages
 
         protected void Ingresar_Click(object sender, EventArgs e)
         {
-
-            textooculto.Value = "{'Nombre':'Alfredo'}";
+            
             //Response.Redirect("~/Default.aspx");
 
         }

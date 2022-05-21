@@ -13,30 +13,39 @@ namespace SistemaDeGestionDeTickets.Pages {
     public partial class InTickLogin {
         
         /// <summary>
-        /// Control form1.
+        /// Control InLogTick.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm InLogTick;
         
         /// <summary>
-        /// Control Ingresar.
+        /// Control inputUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Ingresar;
+        protected global::System.Web.UI.WebControls.TextBox inputUsuario;
         
         /// <summary>
-        /// Control textooculto.
+        /// Control inputContrasenia.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField textooculto;
+        protected global::System.Web.UI.WebControls.TextBox inputContrasenia;
+        
+        /// <summary>
+        /// Control IngresarLogTicket.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button IngresarLogTicket;
     }
 }
