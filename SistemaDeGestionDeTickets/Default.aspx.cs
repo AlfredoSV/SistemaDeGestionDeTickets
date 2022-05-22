@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aplicacion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,7 @@ namespace SistemaDeGestionDeTickets
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            var re = Context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
         }
     }
 }

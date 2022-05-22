@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace SistemaDeGestionDeTickets.Tests
@@ -9,6 +10,15 @@ namespace SistemaDeGestionDeTickets.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            var datos = new List<string>();
+            var datos2 = new { };
+
+            datos.Add("Alfredo");
+            datos.Add("Enriqeu");
+
+            //CollectionAssert.Contains(datos, "Alfredo");
+
+           
         }
     }
 }

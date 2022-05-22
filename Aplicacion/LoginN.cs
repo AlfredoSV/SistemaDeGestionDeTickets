@@ -2,7 +2,8 @@
 
 namespace Aplicacion
 {
-    public class Class1
+    public class LoginN
     {
+        
     }
 }

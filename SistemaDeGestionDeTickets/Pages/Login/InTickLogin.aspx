@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         
-    <form id="InLogTick" runat="server">
+    <form id="InLogTick" method="post"  runat="server">
         <div class="row formLogin">
             <h2>Ingresar</h2>
 
@@ -35,7 +35,7 @@
                     
                 </div>
 
-                <asp:Button runat="server" ID="IngresarLogTicket" Text="Ingresar" CssClass="btn btn-success" />
+                <asp:Button runat="server" ID="IngresarLogTicket" OnClick="IngresarLogTicket_Form"  Text="Ingresar" CssClass="btn btn-success" />
 
             </div>
         

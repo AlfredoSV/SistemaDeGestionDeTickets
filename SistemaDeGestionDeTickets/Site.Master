@@ -51,9 +51,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                        <li><a runat="server" href="~/">Mis tickets</a></li>
+                        <li><a runat="server" href="~/About">Levantar ticket</a></li>
+                        <li><a runat="server" href="~/About">Nuevo ticket</a></li>
+                        <li><a runat="server" href="~/Pages/App/Contacto.aspx">Contacto</a></li>
                     </ul>
                 </div>
             </div>
